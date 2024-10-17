@@ -82,7 +82,7 @@
     font-size: 0.8rem;
     text-align: center;
     text-decoration: none;
-    transition: background-color 0.5s ease, color 0.5s ease;
+    transition: background-color 0.9s ease, color 0.9s ease;
   }
   
   .link:hover {
