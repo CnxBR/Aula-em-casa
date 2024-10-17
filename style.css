@@ -23,7 +23,6 @@
   
   body {
     font-family: 'Inter', sans-serif;
-    /* font-family: 'Sixtyfour Convergence', sans-serif; */
     background-color: var(--Off-Black);
     color: var(--White);
     padding: 1.8rem 3rem;
@@ -70,7 +69,6 @@
   .self-description {
     font-size: 0.65rem;
     margin-bottom: 2rem;
-    /* letter-spacing: 1px; */
   }
   
   .link {
