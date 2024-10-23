@@ -38,12 +38,13 @@
     width: 18rem;
     min-height: 27rem;
     border-radius: 0.3rem;
+    margin: auto; 
   }
   
   .profile-pic {
     justify-content: center;
     align-items: center;
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.8rem;
   }
   
   .profile-pic img {
