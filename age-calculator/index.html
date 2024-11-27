@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/icon.png">
+  <title>Calculador de Idade</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+
+  <main class="container" role="main">
+    <div class="content">
+      <div class="input">
+        <div>
+          <h6>Dia</h6>
+          <input id="day" type="tel" placeholder="DD" maxlength="2" onblur="check(event)">
+          <p class="error"></p>
+        </div>
+        <div>
+          <h6>Mês</h6>
+          <input id="month" type="tel" placeholder="MM" maxlength="2" onblur="check(event)">
+          <p class="error"></p>
+        </div>
+        <div>
+          <h6>Ano</h6>
+          <input id="year" type="tel" placeholder="YYYY" maxlength="4" onblur="check(event)">
+          <p class="error"></p>
+        </div>
+      </div>
+      <hr>
+      <button id="calculate" onclick="calculate()">
+        <img src="./assets/images/icon-arrow.svg" alt="">
+      </button>
+
+      <div class="result">
+        <h1><span id="resultYears">--</span> anos</h1>
+        <h1><span id="resultMonths">--</span> meses</h1>
+        <h1><span id="resultDays">--</span> dias</h1>
+      </div>
+    </div>
+  </main>
+
+
+  <footer class="attribution" role="contentinfo">
+    Coded by <a href="https://github.com/thiagomsantanna">Thiago Mundici</a>.
+  </footer>
+</body>
+
+
+</html>
